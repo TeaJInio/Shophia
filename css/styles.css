@@ -1,0 +1,178 @@
+html {
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    background-color: #f7f5f3;
+}
+a {
+    text-decoration: none;
+}
+
+
+.section_name {
+    border-bottom: 1px solid #eaeaea;
+    width: 1290px;
+    margin: 50px 0 50px 0;
+    position: relative;
+
+}
+.headline {
+    position: absolute;
+    margin: 0;
+    left: 42%;
+    top: -45px;
+    font-size: 2rem;
+    background-color: #f7f5f3;
+    padding: 25px;
+
+}
+.headline:after {
+    content: url(../img/png/koob.png);
+    margin-left: 15px;
+}
+.headline:before {
+    content: url(../img/png/koob.png);
+    margin-right: 15px;
+}
+.handPicked {
+    width: 1290px;
+    margin: 0 auto;
+
+}
+.handPicked-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.handPicked-content-section img{
+    width: 400px;
+    height: 400px;
+}
+.handPicked-content-section:nth-child(2) img{
+    width: 400px;
+    height: 800px;
+}
+.handPicked-content-section {
+    width: 400px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.summerCollection-conteiner {
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.summerCollection {
+    width: 1290px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.summerCollection-conteiner-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+.summerCollection-conteiner-item {
+    /*background: url("../img/jpg/SummerCollection/5.jpg") ;*/
+
+    width: 300px;
+    height: 345px;
+    position: relative;
+}
+.summerCollection-conteiner-item_itemImg {
+    width: 100%;
+    /*height: 345px;*/
+}
+.summerCollection-conteiner-item_discount {
+    width: 60px;
+    height: 61px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    font-size: 23px;
+    text-align: center;
+    background: url("../img/png/Ellipse.png") ;
+    line-height: 60px;
+    color: #f7f5f3;
+}
+.summerCollection-conteiner-item_addCard {
+
+
+}
+.summerCollection-conteiner-item_addCard_text {
+    color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    left: 44px;
+    /*background-color: red;*/
+    width: 198px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+
+}
+.summerCollection-conteiner-item_svg {
+    position: absolute;
+    bottom: 0px;
+    left: 44px;
+    width: 198px;
+    height: 44px;
+    font-size: 1em;
+}
+.summerCollection-conteiner-item:hover {
+    fill: #f0975c;
+}
+@media screen and (max-width: 1310px){
+    .summerCollection {
+        width: auto;
+
+    }
+    .summerCollection-conteiner-section {
+
+
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 1240px){
+    .summerCollection {
+        width: 700px;
+
+    }
+
+    .summerCollection-conteiner-section {
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .summerCollection-conteiner-item {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .summerCollection {
+        width: auto;
+
+    }
+}
+@media screen and (max-width: 620px){
+    .summerCollection {
+        width: 400px;
+
+    }
+}
+@media screen and (max-width: 420px){
+    .summerCollection {
+        width: auto;
+
+    }
+
+
+}
