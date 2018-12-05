@@ -35,6 +35,52 @@ a {
     content: url(../img/png/koob.png);
     margin-right: 15px;
 }
+.support {
+    display: flex;
+    justify-content: space-between;
+    width: 1290px;
+    margin: 0 auto;
+}
+.support-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-item-link {
+    display: flex;
+}
+.support-item-link_img {
+    width: 38px;
+    height: 38px;
+}
+.support-item-link-text {
+    display: flex;
+    flex-direction: column;
+}
+.support-item_left{
+
+    width: 431px;
+    height: 100px;
+    background-image: url(../img/png/support/support_left.png);
+    margin-right: -25px;
+}
+.support-item_centr{
+    width: 456px;
+    height: 100px;
+    background-image: url(../img/png/support/suppot_center.png);
+    background-size: 100%;
+}
+.support-item_right{
+    width: 431px;
+    height: 100px;
+    background-image: url(../img/png/support/support_right.png);
+    margin-left: -25px;
+}
+/*.support-item_svg {
+    width: 38px;
+    height: 38px;
+    fill: black;
+}*/
 .handPicked {
     width: 1290px;
     margin: 0 auto;
@@ -87,7 +133,7 @@ a {
 }
 .summerCollection-conteiner-item_itemImg {
     width: 100%;
-    /*height: 345px;*/
+    height: auto;
 }
 .summerCollection-conteiner-item_discount {
     width: 60px;
@@ -173,6 +219,47 @@ a {
         width: auto;
 
     }
+}
+
+.our_brand {
+    width: 1290px;
+    margin: 0 auto;
+    position: relative;
+}
+.our_brand-conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.our_brand-conteiner-img {
+    max-width:100%;
+    height: auto;
+}
+@media screen and (max-width: 1310px){
+    .our_brand {
+        width: auto;
+    }
+
+}
+@media screen and (max-width: 1240px){
+    .our_brand-conteiner {
+        flex-wrap: wrap;
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 720px){
+    .our_brand-conteiner {
 
 
+    }
+}
+@media screen and (max-width: 620px){
+    .our_brand-conteiner {
+        width: auto;
+        margin-top: 15px;
+    }
+    .our_brand-conteiner-img {
+        margin-top: 15px;
+    }
 }
